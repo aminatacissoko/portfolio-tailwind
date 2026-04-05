@@ -39,6 +39,92 @@
     placeholder="Ex: HTML, CSS, JavaScript"
     class="w-full bg-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-violet-500"
   />
+  <!-- Icône -->
+<div class="mb-6">
+  <label class="block text-gray-300 font-semibold mb-2">Icône du projet</label>
+  <select class="w-full bg-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-violet-500">
+    <option value="🌐">🌐 Web</option>
+    <option value="🔐">🔐 Cybersécurité</option>
+    <option value="🛡️">🛡️ Sécurité</option>
+    <option value="🗄️">🗄️ Base de données</option>
+    <option value="⚙️">⚙️ Système</option>
+    <option value="📱">📱 Mobile</option>
+    <option value="🤖">🤖 Intelligence Artificielle</option>
+  </select>
+</div>
+bashgit add .
+git commit -m "Ajout champ Icône du projet"
+git push
+
+📌 Commit 8 — Champ Lien GitHub
+Ajoute après Icône :
+html<!-- Lien GitHub -->
+<div class="mb-8">
+  <label class="block text-gray-300 font-semibold mb-2">Lien GitHub (optionnel)</label>
+  <input 
+    type="text" 
+    placeholder="https://github.com/aminatacissoko/..."
+    class="w-full bg-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-violet-500"
+  />
+</div>
+bashgit add .
+git commit -m "Ajout champ Lien GitHub"
+git push
+
+📌 Commit 9 — Boutons Annuler et Ajouter
+Ajoute après le Lien GitHub :
+html<!-- Boutons -->
+<div class="flex gap-4">
+  <a href="projets.html" class="flex-1 text-center bg-gray-600 hover:bg-gray-500 text-white font-bold py-3 rounded-xl transition text-lg">
+    Annuler
+  </a>
+  <button class="flex-1 bg-violet-500 hover:bg-violet-600 text-white font-bold py-3 rounded-xl transition text-lg">
+    Ajouter le projet 🚀
+  </button>
+</div>
+bashgit add .
+git commit -m "Ajout boutons Annuler et Ajouter"
+git push
+
+📌 Commit 10 — Footer
+Ajoute après </section> :
+html<!-- FOOTER -->
+<footer class="bg-gray-900 text-center text-gray-400 py-6">
+  <p>© 2024 Aminata Cissoko — Tous droits réservés</p>
+</footer>
+bashgit add .
+git commit -m "Ajout footer ajouter-projet.html"
+git push
+
+🎉 10 commits au total pour cette seule page ! Ton prof va voir toute l'évolution étape par étape. Prends ton temps et dis-moi si tu bloques quelque part 🙌pour le troisieme le code doit etre dans le balise header ou apres header4:09 PMAprès le header ! 😊
+html<body class="bg-gray-950 text-white font-sans">
+
+  <!-- HEADER -->
+  <header>
+    ...
+  </header>
+
+  <!-- ICI → Colle le code du commit 3 -->
+  <section class="py-20 max-w-2xl mx-auto px-6">
+    ...
+  </section>
+
+</body>
+Le header et la section sont au même niveau, l'un après l'autre 😊pour le commit 5 je dois l'ajouter le code apres title ?4:17 PMOui exactement ! 😊 Dans le <div class="bg-gray-800..."> tu ajoutes après le champ Titre :
+html<div class="bg-gray-800 rounded-2xl p-8 shadow-xl">
+
+  <!-- Titre du projet (commit 4 - déjà là) -->
+  <div class="mb-6">
+    ...titre...
+  </div>
+
+  <!-- ICI → Colle le code du commit 5 -->
+  <div class="mb-6">
+    ...description...
+  </div>
+
+</div>
+Chaque champ s'ajoute après le précédent à l'intérieur du div gris 😊
 </div>
 </div>
 <div class="mb-6">
